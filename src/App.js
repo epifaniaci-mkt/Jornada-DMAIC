@@ -48,9 +48,10 @@ const JornadaDMAIC = () => {
     title: 'O HERÓI',
     image: '🦸‍♂️',
     atmosphere: 'dark',
+    narrator: 'Sigma Sensei',
     heroName: 'Dr. Victor Lou',
     tagline: 'Nem todo herói usa capa. Alguns usam Minitab®',
-    description: 'Dr. Victor Lou. Guardião da metodologia DMAIC. Quando processos falham e empresas agonizam, ele surge das sombras.',
+    description: 'Master Black Belt. Guia técnico do time. Quando processos falham e empresas agonizam, ele surge das sombras.',
     stats: [
       { label: 'Projetos Salvos', value: '127' },
       { label: 'ROI Médio', value: '850%' },
@@ -65,7 +66,7 @@ const JornadaDMAIC = () => {
       title: 'DEFINE - A Chamada',
       image: '🦇',
       atmosphere: 'dark',
-      text: 'A sirene ecoa pela cidade às 23h47. No topo do QG Sigma, Dr. Victor Lou observa os dados piscando em seu painel holográfico. Uma empresa está em crise: tempo de entrega aumentou 40% em seis meses.',
+      text: 'Sigma Sensei observa de longe. A sirene ecoa pela cidade às 23h47. No topo do QG Sigma, Dr. Victor Lou observa os dados piscando em seu painel holográfico. Uma empresa está em crise: tempo de entrega aumentou 40% em seis meses.',
       speaker: 'Dr. Victor Lou',
       dialogue: '"Mais uma empresa à beira do colapso. O caos nos processos se espalha como sombras na noite. É hora de agir."',
       mood: 'O vento frio da noite carrega o peso da responsabilidade.'
@@ -75,9 +76,9 @@ const JornadaDMAIC = () => {
       title: 'DEFINE - Reunião nas Sombras',
       image: '👥',
       atmosphere: 'dark',
-      text: 'Em uma sala escura, iluminada apenas pela luz azulada dos monitores, você reúne os melhores: Green Belts, Yellow Belts e especialistas. Todos sabem que quando Dr. Victor Lou chama, a missão é crítica.',
-      speaker: 'Green Belt Veterano',
-      dialogue: '"Estamos com você, Dr. Lou. Já vi empresas ruírem por menos. Vamos usar DMAIC para trazer ordem ao caos."',
+      text: 'Em uma sala escura, iluminada apenas pela luz azulada dos monitores, você reúne os melhores: Iris Lyria, Yellow Belts e especialistas. Todos sabem que quando Dr. Victor Lou chama, a missão é crítica.',
+      speaker: 'Iris Lyria',
+      dialogue: '"Estamos com você, Dr. Lou. Já vi empresas ruírem por menos. Vamos usar DMAIC para trazer ordem ao caos." A flor no crachá brilha sutilmente à luz dos monitores.',
       mood: 'A tensão é palpável. Falhar não é uma opção.'
     },
     {
@@ -118,8 +119,8 @@ const JornadaDMAIC = () => {
       image: '📜',
       atmosphere: 'dark',
       text: 'Sob a luz tênue de seu escritório, você prepara o Charter. Objetivo: reduzir tempo de entrega de 15 para 9 dias em 6 meses. A alta gestão aprova. Você está oficialmente na missão.',
-      speaker: 'CEO (via holograma)',
-      dialogue: '"Dr. Victor Lou, confiamos em você. Temos R$ 2.4M em risco e apenas R$ 180K de orçamento. Traga resultados... ou tudo desmorona."',
+      speaker: 'Dandara Nascimento (via holograma)',
+      dialogue: '"Dr. Victor Lou, confiamos em você. Temos R$ 2.4M em risco e apenas R$ 180K de orçamento. Traga resultados... ou tudo desmorona. Quando falo em visão, o mercado ajusta o foco."',
       mood: 'O peso da expectativa é como uma capa de chumbo.'
     },
     {
@@ -222,7 +223,7 @@ const JornadaDMAIC = () => {
       title: 'MEASURE - Coletando Evidências',
       image: '🔍',
       atmosphere: 'dark',
-      text: 'Como um detetive das operações, você invade o chão de fábrica às 3h da manhã. Câmeras, sensores, cronômetros. Tudo está sendo medido. Cada segundo conta, cada movimento é rastreado.',
+      text: 'Sigma Sensei narra: "Como um detetive das operações, você invade o chão de fábrica às 3h da manhã. Câmeras, sensores, cronômetros. Tudo está sendo medido. Cada segundo conta, cada movimento é rastreado.',
       speaker: 'Dr. Victor Lou',
       dialogue: '"Na fase MEASURE, a verdade se esconde nos dados. Não confio em opiniões. Confio em números, fatos, evidências irrefutáveis."',
       mood: 'O silêncio da fábrica vazia é quebrado apenas pelo zumbido das máquinas.'
@@ -380,7 +381,7 @@ const JornadaDMAIC = () => {
       title: 'IMPROVE - A Hora da Ação',
       image: '⚡',
       atmosphere: 'dark',
-      text: 'Análise completa. Causas raízes expostas. Chegou a hora de agir. Você convoca sua equipe para a sala de guerra. Mapas do processo cobrem as paredes. O plano de ataque está sendo desenhado.',
+      text: 'Sigma Sensei anuncia: "Análise completa. Causas raízes expostas. Chegou a hora de agir. Você convoca sua equipe para a sala de guerra. Mapas do processo cobrem as paredes. O plano de ataque está sendo desenhado.',
       speaker: 'Dr. Victor Lou',
       dialogue: '"Conhecimento sem ação é covardia. IMPROVE é onde teoria se torna vitória. Vamos reformar este processo e restaurar a ordem."',
       mood: 'A tensão é elétrica. A batalha decisiva se aproxima.'
@@ -465,7 +466,7 @@ const JornadaDMAIC = () => {
       image: '⚔️',
       atmosphere: 'dark',
       text: 'Três semanas de piloto. DOE completo. Resultados validados estatisticamente (p-value < 0.01). Você tem evidências irrefutáveis. O CFO aprova o budget de R$ 180K para expansão. A guerra contra o caos entra na fase final.',
-      speaker: 'CFO',
+      speaker: 'Dandara Nascimento',
       dialogue: '"Dr. Victor Lou, seus dados são inquestionáveis. Você transformou céticos em crentes. Aprovo os recursos. Agora, entregue os resultados prometidos."',
       mood: 'O peso da expectativa retorna. Falhar agora seria devastador.'
     },
@@ -530,7 +531,7 @@ const JornadaDMAIC = () => {
       title: 'CONTROL - O Guardião Vigilante',
       image: '👁️',
       atmosphere: 'dark',
-      text: 'Três meses após implementação. Você retorna à fábrica às 2h da manhã. Como um guardião nas sombras, instala sistemas de monitoramento. Dashboards em tempo real. Alertas automáticos. O processo não pode regredir.',
+      text: 'Sigma Sensei vigia: "Três meses após implementação. Você retorna à fábrica às 2h da manhã. Como um guardião nas sombras, instala sistemas de monitoramento. Dashboards em tempo real. Alertas automáticos. O processo não pode regredir.',
       speaker: 'Dr. Victor Lou',
       dialogue: '"Na fase CONTROL, eu não confio em promessas. Confio em sistemas, métricas, auditorias. O que não é monitorado, não é controlado."',
       mood: 'Vigilância constante é o preço da excelência sustentada.'
@@ -615,8 +616,8 @@ const JornadaDMAIC = () => {
       image: '⚠️',
       atmosphere: 'dark',
       text: 'Mês 4: Um novo gerente de operações assume. Ele quer "otimizar custos" eliminando o sistema Kanban. "É muito caro manter", diz ele. Este é o teste final: proteger as melhorias contra a ignorância.',
-      speaker: 'Novo Gerente',
-      dialogue: '"Dr. Victor Lou, com todo respeito, esse sistema Kanban parece desnecessário. Podemos voltar ao método antigo e cortar esses custos."',
+      speaker: 'Otávio Vilar',
+      dialogue: '"Dr. Victor Lou, com todo respeito, esse sistema Kanban parece desnecessário. Podemos voltar ao método antigo e cortar esses custos. Afinal, medo sucesso em andares, não em detalhes de chão de fábrica."',
       mood: 'O verdadeiro inimigo não é o processo falho, mas a amnésia organizacional.'
     },
     {
@@ -667,7 +668,7 @@ const JornadaDMAIC = () => {
       image: '🏆',
       atmosphere: 'dark',
       text: 'Mês 6 - Auditoria final: Tempo médio de entrega = 8.7 dias (META: 9 dias - SUPERADA!). Processo estável (Cpk = 1.45). Cliente satisfação: 87% → 96%. Receita recuperada: R$ 2.1M. Custo projeto: R$ 180K. ROI realizado: 1067%.',
-      speaker: 'CEO',
+      speaker: 'Dandara Nascimento',
       dialogue: '"Dr. Victor Lou, você não apenas salvou este projeto. Você transformou esta empresa. De caos a excelência operacional. Você é uma lenda."',
       mood: 'Números não mentem. Missão cumprida com maestria.'
     },
@@ -676,7 +677,7 @@ const JornadaDMAIC = () => {
       title: 'EPÍLOGO - O Legado do Dr. Victor Lou',
       image: '🌃',
       atmosphere: 'dark',
-      text: 'Seis meses depois, você está no topo do QG Sigma novamente. A sirene toca. Outra empresa em crise. Mas você olha para trás e vê a fábrica que salvou: luzes acesas, processos fluindo, pessoas sorrindo. O caos foi domado.',
+      text: 'Sigma Sensei reflete: "Seis meses depois, você está no topo do QG Sigma novamente. A sirene toca. Outra empresa em crise. Mas você olha para trás e vê a fábrica que salvou: luzes acesas, processos fluindo, pessoas sorrindo. O caos foi domado.',
       speaker: 'Dr. Victor Lou (monólogo)',
       dialogue: '"Todo projeto é uma jornada de DMAIC. Define o problema. Measure a realidade. Analyze a causa. Improve o processo. Control o resultado. É simples, mas não é fácil. E é nisso que reside meu propósito: trazer ordem ao caos, luz à escuridão, excelência ao medíocre. Enquanto houver processos falhos, eu estarei nas sombras. Porque eu sou o Dr. Victor Lou. E esta é minha jornada."',
       mood: 'A cidade dorme. Mas o guardião permanece vigilante. Para sempre.',
@@ -691,7 +692,7 @@ const JornadaDMAIC = () => {
       title: 'ANALYZE - Entrando na Mente do Problema',
       image: '🧠',
       atmosphere: 'dark',
-      text: 'Em seu laboratório às 4h da manhã, você espalha os dados em telas holográficas. Gráficos flutuam no ar. É hora de conectar os pontos, encontrar correlações, desvendar causas raízes.',
+      text: 'Sigma Sensei sussurra: "Em seu laboratório às 4h da manhã, você espalha os dados em telas holográficas. Gráficos flutuam no ar. É hora de conectar os pontos, encontrar correlações, desvendar causas raízes.',
       speaker: 'Dr. Victor Lou',
       dialogue: '"Todo problema tem uma origem. Na fase ANALYZE, eu não aceito sintomas. Eu caço a doença. A raiz deve ser extirpada."',
       mood: 'Silêncio. Concentração absoluta. A mente do Dr. Victor Lou é uma máquina analítica.'
@@ -822,7 +823,7 @@ const JornadaDMAIC = () => {
       image: '🧩',
       atmosphere: 'dark',
       text: 'Todas as peças se encaixam. Causas raízes identificadas: (1) Sistema de inventário desatualizado, (2) Processo de separação manual, (3) Falta de comunicação com fornecedores. Tudo validado estatisticamente.',
-      speaker: 'CEO (holograma)',
+      speaker: 'Dandara Nascimento (holograma)',
       dialogue: '"Dr. Victor Lou, sua análise é irrefutável. Os dados não mentem. Vocês têm autorização para implementar as melhorias. Não nos decepcione."',
       mood: 'A batalha intelectual foi vencida. Agora vem a batalha da implementação.'
     },
