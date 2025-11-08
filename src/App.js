@@ -46,8 +46,7 @@ const JornadaDMAIC = () => {
   const openingScene = {
     type: 'opening',
     title: 'O HERÃ“I',
-    image: 'https://raw.githubusercontent.com/epifaniaci-mkt/Jornada-DMAIC/main/assets/Dr.%20VL%2001%20-%201024x1365.png',
-    useImageUrl: true, // Flag para indicar que é uma URL de imagem
+    image: 'ðŸ¦¸â€â™‚ï¸',
     atmosphere: 'dark',
     narrator: 'Sigma Sensei',
     heroName: 'Dr. Victor Lou',
